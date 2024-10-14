@@ -2,7 +2,8 @@ import { Icons } from "@/components/icons";
 import { HomeIcon, Code, PenLine, AlbumIcon } from "lucide-react";
 
 export const DATA = {
-  name: "Adi",
+  name: "Aditya Gupta (AdiSuyash)",
+  nickName: "Adi",
   initials: "AG",
   url: "https://adisuyash.co",
   location: "Lucknow, India",
