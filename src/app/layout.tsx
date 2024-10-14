@@ -18,10 +18,10 @@ export const metadata: Metadata = {
     default: DATA.name,
     template: `%s | ${DATA.name}`,
   },
-  description: DATA.description,
+  description: DATA.description1,
   openGraph: {
     title: `${DATA.name}`,
-    description: DATA.description,
+    description: DATA.description2,
     url: DATA.url,
     siteName: `${DATA.name}`,
     locale: "en_US",
@@ -61,7 +61,7 @@ export default function RootLayout({
           fontSans.variable
         )}
       >
-        <ThemeProvider attribute="class" defaultTheme="light">
+        <ThemeProvider attribute="class" defaultTheme="system">
           <TooltipProvider delayDuration={0}>
             {children}
             <Navbar />

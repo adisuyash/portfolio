@@ -27,7 +27,12 @@ export default function Page() {
               <BlurFadeText
                 className="max-w-[600px] md:text-xl"
                 delay={BLUR_FADE_DELAY}
-                text={DATA.description}
+                text={DATA.description1}
+              />
+              <BlurFadeText
+                className="max-w-[600px] md:text-xl"
+                delay={BLUR_FADE_DELAY}
+                text={DATA.description2}
               />
             </div>
             <BlurFade delay={BLUR_FADE_DELAY}>
@@ -102,10 +107,46 @@ export default function Page() {
           <BlurFade delay={BLUR_FADE_DELAY * 9}>
             <h2 className="text-xl font-bold">Skills</h2>
           </BlurFade>
-          <div className="flex flex-wrap gap-1">
-            {DATA.skills.map((skill, id) => (
-              <BlurFade key={skill} delay={BLUR_FADE_DELAY * 10 + id * 0.05}>
-                <Badge key={skill}>{skill}</Badge>
+
+          {/* Languages */}
+          <div className="flex flex-wrap gap-2">
+            <div>Languages</div>
+            {DATA.languages.map((language, id) => (
+              <BlurFade key={language} delay={BLUR_FADE_DELAY * 10 + id * 0.05}>
+                <Badge key={language}>{language}</Badge>
+              </BlurFade>
+            ))}
+          </div>
+
+          {/* Frameworks */}
+          <div className="flex flex-wrap gap-2">
+            <div>Frameworks</div>
+            {DATA.frameworks.map((framework, id) => (
+              <BlurFade
+                key={framework}
+                delay={BLUR_FADE_DELAY * 10 + id * 0.05}
+              >
+                <Badge key={framework}>{framework}</Badge>
+              </BlurFade>
+            ))}
+          </div>
+
+          {/* Platforms */}
+          <div className="flex flex-wrap gap-2">
+            <div>Platforms</div>
+            {DATA.platforms.map((platform, id) => (
+              <BlurFade key={platform} delay={BLUR_FADE_DELAY * 10 + id * 0.05}>
+                <Badge key={platform}>{platform}</Badge>
+              </BlurFade>
+            ))}
+          </div>
+
+          {/* Tools */}
+          <div className="flex flex-wrap gap-2">
+            <div>Tools</div>
+            {DATA.tools.map((tool, id) => (
+              <BlurFade key={tool} delay={BLUR_FADE_DELAY * 10 + id * 0.05}>
+                <Badge key={tool}>{tool}</Badge>
               </BlurFade>
             ))}
           </div>

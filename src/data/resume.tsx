@@ -2,29 +2,60 @@ import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
-  name: "Dillion Verma",
-  initials: "DV",
-  url: "https://dillion.io",
-  location: "San Francisco, CA",
-  locationLink: "https://www.google.com/maps/place/sanfrancisco",
-  description:
-    "Software Engineer turned Entrepreneur. I love building things and helping people. Very active on Twitter.",
+  name: "Aditya Gupta",
+  initials: "AG",
+  url: "https://adisuyash.co",
+  location: "Lucknow, India",
+  locationLink: "https://www.google.com/maps/place/lucknow",
+  description1: "Dev, Design and Community.",
+  description2:
+    "I am currently working as a Developer Advocate at HackQuest, which is a Web3 developer education platform.",
   summary:
-    "At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
+    "Since 2022, I've been building and managing communities in the Web3 space while enhancing my skills through active participation in multiple hackathons. I recently won the [Arweave India Hacker House 2024](https://x.com/AdiSuyash/status/1813203631577133439) and have been part of their Launchpad program. I’ve also mentored at over 10 hackathons, facilitated developer training programs at HackQuest, hosted build stations, and contributed to tech projects that encourage collaboration and learning among developers.",
   avatarUrl: "/me.png",
-  skills: [
-    "React",
-    "Next.js",
-    "Typescript",
-    "Node.js",
+
+  languages: [
+    "Solidity",
+    "TypeScript",
+    "JavaScript",
     "Python",
-    "Go",
-    "Postgres",
-    "Docker",
-    "Kubernetes",
-    "Java",
-    "C++",
+    "C/C++",
+    "HTML/CSS",
   ],
+
+  frameworks: [
+    "ReactJs",
+    "Next.js",
+    "Magic UI",
+    "TailwindCSS",
+    "Shadcn/ui",
+    "Node.js",
+  ],
+  
+  platforms: [
+    "Linux",
+    "Windows",
+    "Azure",
+    "AWS",
+    "IBM Cloud"
+  ],
+  
+  tools: [
+    "Notion",
+    "Git",
+    "GitHub",
+    "VS Code",
+    "Postman",
+    "Hashnode"
+  ],
+  
+  softSkills: [
+    "Leadership",
+    "Public Speaking",
+    "Event Management",
+    "Technical Writing",
+  ],
+  
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
