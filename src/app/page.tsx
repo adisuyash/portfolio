@@ -150,6 +150,16 @@ export default function Page() {
               </BlurFade>
             ))}
           </div>
+
+          {/* Soft Skills */}
+          <div className="flex flex-wrap gap-2">
+            <div>Soft Skills</div>
+            {DATA.softSkills.map((softSkill, id) => (
+              <BlurFade key={softSkill} delay={BLUR_FADE_DELAY * 10 + id * 0.05}>
+                <Badge key={softSkill}>{softSkill}</Badge>
+              </BlurFade>
+            ))}
+          </div>
         </div>
       </section>
       <section id="projects">

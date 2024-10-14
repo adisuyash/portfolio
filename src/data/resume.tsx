@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon, NotebookIcon } from "lucide-react";
+import { HomeIcon, Code, PenLine, AlbumIcon } from "lucide-react";
 
 export const DATA = {
   name: "Aditya Gupta",
@@ -58,7 +58,9 @@ export const DATA = {
   
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/blog", icon: NotebookIcon, label: "Blog" },
+    { href: "/project", icon: Code, label: "Projects" },
+    { href: "/blog", icon: PenLine, label: "Blog" },
+    { href: "https://drive.google.com/file/d/101r1ibMDTE-8Eg1IQve2XAKppf4XYoBS/view", icon: AlbumIcon, label: "Resume" },
   ],
   contact: {
     email: "hello@example.com",
@@ -66,28 +68,28 @@ export const DATA = {
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://dub.sh/dillion-github",
+        url: "https://github.com/adisuyash",
         icon: Icons.github,
 
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://dub.sh/dillion-linkedin",
+        url: "https://linkedin.com/in/adisuyash",
         icon: Icons.linkedin,
 
         navbar: true,
       },
       X: {
         name: "X",
-        url: "https://dub.sh/dillion-twitter",
+        url: "https://x.com/adisuyash",
         icon: Icons.x,
 
         navbar: true,
       },
       Youtube: {
         name: "Youtube",
-        url: "https://dub.sh/dillion-youtube",
+        url: "https://youtube.com/@adisuyashgupta ",
         icon: Icons.youtube,
         navbar: true,
       },
