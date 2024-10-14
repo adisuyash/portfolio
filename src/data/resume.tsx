@@ -2,16 +2,16 @@ import { Icons } from "@/components/icons";
 import { HomeIcon, Code, PenLine, AlbumIcon } from "lucide-react";
 
 export const DATA = {
-  name: "Aditya Gupta",
+  name: "Adi",
   initials: "AG",
   url: "https://adisuyash.co",
   location: "Lucknow, India",
   locationLink: "https://www.google.com/maps/place/lucknow",
-  description1: "Dev, Design and Community.",
-  description2:
-    "I am currently working as a Developer Advocate at HackQuest, which is a Web3 developer education platform.",
+  myTagline: "Dev, Design and Community.",
+  description:
+    "Currently, I'm working as a Developer Advocate at HackQuest, which is a Web3 developer education platform.",
   summary:
-    "Since 2022, I've been building and managing communities in the Web3 space while enhancing my skills through active participation in multiple hackathons. I recently won the [Arweave India Hacker House 2024](https://x.com/AdiSuyash/status/1813203631577133439) and have been part of their Launchpad program. I’ve also mentored at over 10 hackathons, facilitated developer training programs at HackQuest, hosted build stations, and contributed to tech projects that encourage collaboration and learning among developers.",
+    "Since 2022, I've been building and managing communities in the Web3 space while upskilling myself through active participation in various Web3 hackathons. I recently won the [Arweave India Hacker House 2024](https://x.com/AdiSuyash/status/1813203631577133439) and have been part of their Launchpad program. I’ve also mentored at over 10 hackathons, facilitated developer training programs at [HackQuest](https://x.com/hackQuest_), hosted build stations, and contributed to tech projects that encourage collaboration and learning among developers.",
   avatarUrl: "/me.png",
 
   languages: [
@@ -31,40 +31,31 @@ export const DATA = {
     "Shadcn/ui",
     "Node.js",
   ],
-  
-  platforms: [
-    "Linux",
-    "Windows",
-    "Azure",
-    "AWS",
-    "IBM Cloud"
-  ],
-  
-  tools: [
-    "Notion",
-    "Git",
-    "GitHub",
-    "VS Code",
-    "Postman",
-    "Hashnode"
-  ],
-  
+
+  platforms: ["Linux", "Windows", "Azure", "AWS", "IBM Cloud"],
+
+  tools: ["Notion", "Git", "GitHub", "VS Code", "Postman", "Hashnode"],
+
   softSkills: [
     "Leadership",
     "Public Speaking",
     "Event Management",
     "Technical Writing",
   ],
-  
+
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     { href: "/project", icon: Code, label: "Projects" },
     { href: "/blog", icon: PenLine, label: "Blog" },
-    { href: "https://drive.google.com/file/d/101r1ibMDTE-8Eg1IQve2XAKppf4XYoBS/view", icon: AlbumIcon, label: "Resume" },
+    {
+      href: "https://drive.google.com/file/d/101r1ibMDTE-8Eg1IQve2XAKppf4XYoBS/view",
+      icon: AlbumIcon,
+      label: "Resume",
+    },
   ],
   contact: {
-    email: "hello@example.com",
-    tel: "+123456789",
+    email: "mailto:adisuyash@gmail.com",
+    tel: "+918303420320",
     social: {
       GitHub: {
         name: "GitHub",
@@ -81,7 +72,7 @@ export const DATA = {
         navbar: true,
       },
       X: {
-        name: "X",
+        name: "X (Twitter)",
         url: "https://x.com/adisuyash",
         icon: Icons.x,
 

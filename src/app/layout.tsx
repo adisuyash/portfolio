@@ -6,7 +6,7 @@ import { cn } from "@/lib/utils";
 import type { Metadata } from "next";
 import { Inter as FontSans } from "next/font/google";
 import "./globals.css";
-import { Analytics } from '@vercel/analytics/react';
+import { Analytics } from "@vercel/analytics/react";
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -19,10 +19,10 @@ export const metadata: Metadata = {
     default: DATA.name,
     template: `%s | ${DATA.name}`,
   },
-  description: DATA.description1,
+  description: DATA.myTagline,
   openGraph: {
     title: `${DATA.name}`,
-    description: DATA.description2,
+    description: DATA.description,
     url: DATA.url,
     siteName: `${DATA.name}`,
     locale: "en_US",
@@ -66,7 +66,7 @@ export default function RootLayout({
           <TooltipProvider delayDuration={0}>
             {children}
             {/* --- For Vercel Web Analytics --- */}
-            <Analytics /> 
+            <Analytics />
             <Navbar />
           </TooltipProvider>
         </ThemeProvider>
